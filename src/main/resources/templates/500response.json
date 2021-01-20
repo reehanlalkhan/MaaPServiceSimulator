@@ -1,0 +1,13 @@
+{
+    "RCSMessage": {
+        "msgId": "dc2fa522-eb72-4ccc-bf6b-9e00e2750466",
+        "timestamp": "2020-05-11 04:50:21",
+        "channel":"abc",
+        "textMessage": "${error-message}"
+    },
+    "messageContact": {
+        "userContact": "urn:mbid:AQAAY21FcyXfb5K8pIqt4SMCchFJHGCQ+Fvr1vGTwfyUMyYNEevQFOSPT7fEBbAar2jP3uB8SPup0egzLAsSl5WuAchg6RtAkWv+LjSdXxooncD0YZjtnv+UHKswOa+roKPZwTw3mUr9nk65AouFTF6i/EG7daM="
+    },
+    "callbackUrlValidity": "2020-06-08T15:45:04Z",
+    "event": "message"
+}
