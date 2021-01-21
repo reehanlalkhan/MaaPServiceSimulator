@@ -1,6 +1,7 @@
 package com.mavenir.mbmp.abcservicesimulator.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -29,7 +30,7 @@ public class RCSMessage {
     private String reason;
     private SuggestedResponse suggestedResponse;
     private FileMessage fileMessage;
-    private EventTimePicker eventTimePicker;
+    private EventTimePicker eventTimepicker;
 
     @Override
     public String toString() {
@@ -49,7 +50,7 @@ public class RCSMessage {
             ", mms='" + mms + '\'' +
             ", richcardMessage=" + richcardMessage +
             ", fileMessage= " + fileMessage +
-            ", eventTimePicker= " + eventTimePicker +
+            ", eventTimePicker= " + eventTimepicker +
             ", reason='" + reason + '\'' +
             '}';
     }

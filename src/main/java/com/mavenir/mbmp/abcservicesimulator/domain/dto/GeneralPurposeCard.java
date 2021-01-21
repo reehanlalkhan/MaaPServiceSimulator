@@ -12,8 +12,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class GeneralPurposeCard {
-    @Builder.Default
-    private CardContent content = new CardContent();
-    @Builder.Default
-    private CardLayout layout = new CardLayout();
+    private CardContent content;
+    private CardLayout layout;
 }

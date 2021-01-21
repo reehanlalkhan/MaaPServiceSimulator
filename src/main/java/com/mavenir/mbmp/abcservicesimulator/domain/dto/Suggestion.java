@@ -10,10 +10,9 @@ import lombok.*;
 @ToString
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Suggestion {
-    @Builder.Default
-    private Reply reply = new Reply();
-    @Builder.Default
-    private UrlAction urlAction = new UrlAction();
+    private Reply reply;
+    private Action action;
+    private String imageIdentifier;
 
     public void setDisplayText(String displayText) {
         this.reply.setDisplayText(displayText);

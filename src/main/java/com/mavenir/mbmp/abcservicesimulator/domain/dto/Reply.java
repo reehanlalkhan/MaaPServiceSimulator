@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Reply {
-    @Builder.Default
-    private Postback postback = new Postback();
+    private Postback postback;
     private String displayText;
 }

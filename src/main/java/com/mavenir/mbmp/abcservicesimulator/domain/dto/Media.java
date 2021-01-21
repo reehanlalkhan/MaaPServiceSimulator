@@ -17,5 +17,6 @@ public class Media {
     private String height;
     private long mediaFileSize;
     private String mediaType;
+    private String imageIdentifier;
 }
 

@@ -1,22 +1,21 @@
 package com.mavenir.mbmp.abcservicesimulator.domain.dto;
 
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class CardContent {
-    @Builder.Default
-    private Media media = new Media();
-    @Builder.Default
-    private List<Suggestion> suggestions = new ArrayList<Suggestion>();
+    private Media media;
+    private List<Suggestion> suggestions;
+    private List<Media> mediaList;
+    private boolean multiSelect;
     private String description;
     private String title;
 }

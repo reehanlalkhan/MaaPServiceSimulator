@@ -12,8 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class RichcardMessage {
-    @Builder.Default
-    private Message message = new Message();
+    private Message message;
 
     public void setMedia(Media media) {
         this.message.getGeneralPurposeCard().getContent().setMedia(media);

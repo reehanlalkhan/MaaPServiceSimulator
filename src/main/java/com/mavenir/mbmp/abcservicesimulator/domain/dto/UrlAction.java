@@ -12,6 +12,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class UrlAction {
-    @Builder.Default
-    private OpenUrl openUrl = new OpenUrl();
+    private OpenUrl openUrl;
 }

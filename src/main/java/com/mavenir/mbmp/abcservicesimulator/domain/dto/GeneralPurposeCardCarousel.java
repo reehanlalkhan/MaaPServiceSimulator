@@ -8,4 +8,6 @@ import java.util.List;
 public class GeneralPurposeCardCarousel {
     private List<CardContent> content;
     private CardLayout layout;
+    private String description;
+    private String title;
 }

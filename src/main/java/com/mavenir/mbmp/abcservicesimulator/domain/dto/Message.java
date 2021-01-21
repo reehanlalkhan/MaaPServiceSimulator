@@ -12,7 +12,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Message {
-    @Builder.Default
-    private GeneralPurposeCard generalPurposeCard = new GeneralPurposeCard();
+    private GeneralPurposeCard generalPurposeCard;
     private GeneralPurposeCardCarousel generalPurposeCardCarousel;
 }
